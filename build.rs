@@ -334,7 +334,7 @@ const DATA: &'static [(&'static str, &'static [&'static str], &'static [&'static
     ("stringapiset", &["minwindef", "winnls", "winnt"], &["kernel32"]),
     ("strmif", &["winnt"], &[]),
     ("subauth", &["minwindef", "winnt"], &[]),
-    ("synchapi", &["basetsd", "minwinbase", "minwindef", "winnt"], &["kernel32", "synchronization"]),
+    ("synchapi", &["basetsd", "minwinbase", "minwindef", "winnt"], &["kernel32"]),
     ("sysinfoapi", &["basetsd", "minwinbase", "minwindef", "winnt"], &["kernel32"]),
     ("systemtopologyapi", &["minwindef", "winnt"], &["kernel32"]),
     ("taskschd", &["minwinbase", "minwindef", "oaidl", "unknwnbase", "winnt", "wtypes"], &[]),
